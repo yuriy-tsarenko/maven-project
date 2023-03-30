@@ -23,10 +23,7 @@ public class CurrencyModel {
     @Override
     public String toString() {
         return "CurrencyModel{"
-                + "currency='"
-                + currency + '\''
-                + ", value="
-                + value
-                + '}';
+                + "currency='" + currency + '\''
+                + ", value=" + value + '}';
     }
 }
