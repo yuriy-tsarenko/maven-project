@@ -7,6 +7,13 @@ import com.google.gson.GsonBuilder;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * class Main
+ * This is a entry point of application
+ * For detailed info see {@link CurrencyDto}
+ *
+ * @see CurrencyDto
+ */
 public class Main {
 
     //TODO: add the absolute path to file 'ex1.json'
@@ -23,5 +30,21 @@ public class Main {
         dto.setCurrency(null);
         String toJson = gson.toJson(dto);
         System.out.println(toJson);
+    }
+
+    /**
+     *
+     * @param value -
+     * @return - string value
+     * @throws Exception - if .....
+     */
+    public String doSmth(String value) throws Exception {
+        // Line comment
+        //TODO
+       /*
+       Block comment
+       */
+        return ""
+                + "";
     }
 }
